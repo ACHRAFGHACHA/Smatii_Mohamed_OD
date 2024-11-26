@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-image: url('https://example.com/background-image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .logo {
+            display: block;
+            margin: 50px auto;
+            width: 150px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3.5em;
+            color: #ffcc00;
+        }
+
+        .form-container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: rgba(31, 31, 31, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        input, textarea {
+            width: 80%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 2px solid #ffcc00;
+            border-radius: 8px;
+            background-color: #333;
+            color: #fff;
+            font-size: 1.2em;
+        }
+
+        input[type="submit"] {
+            background-color: #ff6600;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ffcc00;
+        }
+
+        .back-button {
+            display: block;
+            width: 50%;
+            margin: 30px auto;
+            padding: 15px;
+            background-color: #333;
+            color: #ffcc00;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الشعار -->
+    <img src="C:\Users\Achraf\Downloads/466965676_492415943178606_5281138253880974169_n-removebg-preview.png" alt="شعار المدرسة" class="logo">
+
+    <h1>اتصل بنا</h1>
+
+    <div class="form-container">
+        <form action="https://formspree.io/f/xvgowgej" method="POST">
+            <input type="text" name="name" placeholder="اسمك" required>
+            <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+            <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+            <input type="submit" value="إرسال الرسالة">
+        </form>
+    </div>
+
+    <a href="index.html" class="back-button">العودة إلى الرئيسية</a>
+
+</body>
+</html>
